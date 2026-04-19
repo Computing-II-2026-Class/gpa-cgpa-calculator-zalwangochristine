@@ -6,7 +6,6 @@ Registration Number:25/U/BIE/01426/PE
 #include <stdio.h>
 
 int main(void) {
-    // Function to calculate grade and grade point
 int calculate_grade(float score, float *grade_point) {
     if (score >= 80 && score <= 100) {
         *grade_point = 5;
